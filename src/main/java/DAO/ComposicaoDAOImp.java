@@ -147,17 +147,17 @@ public class ComposicaoDAOImp  implements ComposicaoDAO{
 //		  aList.add((ArrayList<Composicao>) listIdade);
 //		  aList.add((ArrayList<Composicao>) listCalorias);
 
-		  aList.add((ArrayList<Composicao>) listDataMedida);
+		 aList.add((ArrayList<Composicao>) listDataMedida);
 		 
 		  Object[] array = aList.toArray();
 		
 			 
-			 System.out.println( Arrays.toString(array) );
+			 //System.out.println( Arrays.toString(array) );
 			 
 			for(Object o : array) { 
 				 Object s = (Object) o;
 			 
-			 System.out.println(s); 
+			 //System.out.println(s); 
 			}
 			 
 		 
@@ -224,7 +224,7 @@ public class ComposicaoDAOImp  implements ComposicaoDAO{
 		  aList.add((ArrayList<Composicao>) listIdade);
 		  //aList.add((ArrayList<Composicao>) listCalorias);
 
-		  aList.add((ArrayList<Composicao>) listDataMedida);
+		 aList.add((ArrayList<Composicao>) listDataMedida);
 		 
 		  Object[] array = aList.toArray();
 		

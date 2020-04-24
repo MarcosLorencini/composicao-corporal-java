@@ -32,6 +32,13 @@ public class ComposicaoController {
 	
 	@PostMapping("save-composicao/{alunoId}")
 	public boolean saveComposicao(@RequestBody Composicao composicao, @PathVariable("alunoId") int alunoId) {
+		/*
+		 * composicao.setGordura(composicao.getGordura().replaceAll(",", "."));
+		 * composicao.setImc(composicao.getImc().replaceAll(",", "."));
+		 * composicao.setMusculo(composicao.getMusculo().replaceAll(",", "."));
+		 * composicao.setPeso(composicao.getPeso().replaceAll(",", "."));
+		 * composicao.setViceral(composicao.getViceral().replaceAll(",", "."));
+		 */
 		Aluno aluno = new Aluno();
 		aluno.setAluno_id(alunoId);
 		
